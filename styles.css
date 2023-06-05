@@ -88,26 +88,49 @@
 .color__blue {
   display: inline-block;
   margin-right: 0.5rem;
-  background-color: rgb(33, 95, 217);
+  border: 5px solid rgb(255, 255, 255);
+  background-color: rgba(33, 94, 217, 0.738);
   height: 40px;
   width: 40px;
   border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.color__blue:hover {
+  border: 1px solid rgb(255, 255, 255);
+  background-color: rgb(33, 95, 217);
 }
 .color__purple {
   display: inline-block;
   margin-right: 0.5rem;
-  background-color: rgb(133, 49, 153);
+  border: 5px solid rgb(255, 255, 255);
+  background-color: rgba(132, 49, 153, 0.755);
   height: 40px;
   width: 40px;
   border-radius: 50%;
+  cursor: pointer;
+  transition: border 0.2s ease-in-out;
+}
+
+.color__purple:hover {
+  border: 1px solid rgb(255, 255, 255);
+  background-color: rgb(133, 49, 153);
 }
 .color__grey {
   display: inline-block;
   margin-right: 0.5rem;
-  background-color: rgb(123, 123, 123);
+  border: 5px solid rgb(255, 255, 255);
+  background-color: rgba(123, 123, 123, 0.763);
   height: 40px;
   width: 40px;
   border-radius: 50%;
+  cursor: pointer;
+  transition: border 0.2s ease-in-out;
+}
+
+.color__grey:hover {
+  border: 1px solid rgb(255, 255, 255);
+  background-color: rgb(123, 123, 123);
 }
 
 .product__video__heading__div {
@@ -154,4 +177,5 @@
   color: white;
   background-color: rgb(2, 148, 2);
   top: 17px;
+  cursor: pointer;
 }

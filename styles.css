@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+  font-family: Ubuntu;
+  margin: auto;
+  position: relative;
+}
+
+.div__main {
+  margin: 2rem auto;
+  width: 500px;
+  height: 100%;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 2rem;
+  z-index: 1;
+}
+
+.new__div__styling {
+  background-color: crimson;
+  padding: 0.5rem;
+  color: white;
+  border-radius: 5px;
+  font-weight: 100;
+  position: absolute;
+  top: -1%;
+  right: -4%;
+  z-index: 99;
+}
+
+.div__main__styling {
+  margin-top: 1.5rem;
+}
+
+.img__styling {
+  width: 100%;
+}
+
+.paragraph__div__styling {
+  margin-top: 1.5rem;
+}
+
+.paragraph__styling {
+  line-height: 1.5;
+}
+
+.information__div__styling {
+  margin-top: 1.5rem;
+}
+
+.infolist__styling {
+  padding: 1rem;
+}
+
+.sizes__h3__styling {
+  margin: 0rem 0rem 0.5rem 0rem;
+}
+
+.table__styling {
+  border: 2px solid rgb(225, 225, 225);
+  border-collapse: collapse;
+  line-height: 1.5rem;
+  margin: auto;
+  padding: 0rem;
+  width: 100%;
+}
+.thead__styling {
+  /* border: 1px solid black; */
+}
+.tr__styling {
+  /* border: 1px solid black; */
+}
+.th__styling {
+  border: 2px solid rgb(225, 225, 225);
+}
+
+.td__styling {
+  border: 2px solid rgb(225, 225, 225);
+}
+
+.color__variations__heading {
+  margin: 1rem 0rem 1rem 0rem;
+}
+
+.color__variations {
+  display: inline-block;
+}
+
+.color__blue {
+  display: inline-block;
+  margin-right: 0.5rem;
+  background-color: rgb(33, 95, 217);
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+.color__purple {
+  display: inline-block;
+  margin-right: 0.5rem;
+  background-color: rgb(133, 49, 153);
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+.color__grey {
+  display: inline-block;
+  margin-right: 0.5rem;
+  background-color: rgb(123, 123, 123);
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.product__video__heading__div {
+  margin: 1rem 0rem 1rem 0rem;
+}
+
+.product__video__iframe {
+  width: 100%;
+}
+
+.price__div {
+  margin-top: 1rem;
+}
+
+.price__heading3 {
+  font-weight: 500;
+}
+
+.price__heading2__div {
+  margin-top: 1rem;
+}
+
+.footer__styling {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ref__main__page {
+  margin-top: 2rem;
+}
+
+.paragraph__anchor_styling {
+  font-size: 15px;
+  left: -50px;
+}
+
+.buy__button__styling {
+  margin: 0rem;
+  height: 35px;
+  width: 70px;
+  padding: 0.4rem;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(2, 148, 2);
+  top: 17px;
+}
